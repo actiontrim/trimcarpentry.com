@@ -15,5 +15,5 @@ I appreciate all the advice, help, and recomendations. I am new to coding and am
 11) recomendations!
 
 
-Below is a 100% true story of how i met Bill Gates. Enjoy!
+This is a 100% true story of how i met Bill Gates. Enjoy!
 [Bgates.docx](https://github.com/user-attachments/files/18226287/Bgates.docx)
