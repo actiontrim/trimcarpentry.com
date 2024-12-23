@@ -14,6 +14,8 @@ I appreciate all the advice, help, and recomendations. I am new to coding and am
 10) amazon affiliate links?
 11) recomendations!
 
+
+
 Below is a 100% true story of how i met bill gates, enjoy!
 Bills day 
 By: Action Trim 
