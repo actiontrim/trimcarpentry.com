@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/jpg" href=/images/mascot.jpg>
+        <title>trimcarpentry.com</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+<style> 
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-header {
+            margin-bottom: 40px;
+        }
+
+        .main-header h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .social-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .social-icon {
+            color: white;
+            font-size: 20px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Services Section */
+        .services-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            height: 200px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card h3 {
+            font-size: 20px;
+            margin: 15px 0;
+            color: #333;
+        }
+
+        .service-card p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .service-card button {
+            background-color: #f78233;
+            border: none;
+            padding: 10px 15px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .service-card button:hover {
+            background-color: #e6762a;
+        }
+
+        /* Chat Section */
+        .chat-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 24px;
+            transition: background-color 0.3s;
+        }
+
+        .chat-container:hover {
+            background-color: #f78233;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        footer nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .services-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-card {
+                width: 80%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="main-header">
+        <!-- Social Icons -->
+        <div class="social-container">
+            <a class="social-icon" href="https://www.instagram.com/actiontrim" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://www.facebook.com/profile.php?id=61570621281266" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://www.youtube.com/channel/UCdcwjBexxQamRklLsxpGrFw" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://www.twitch.tv/actiontrim" target="_blank">
+                <ion-icon name="logo-twitch"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://www.tiktok.com/@actiontrim" target="_blank">
+                <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://x.com/trimcarpentry" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="https://www.trimcarpentry.com">Home</a>
+            <a href="https://www.trimcarpentry.com/navbarcontent/gallery.html">Gallery</a>
+            <a href="https://www.trimcarpentry.com/navbarcontent/about.html">About Us</a>
+            <a href="https://www.trimcarpentry.com/navbarcontent/contact.html">Contact</a>
+            <a href="https://www.trimcarpentry.com/navbarcontent/jobs.html">Jobs</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container">
+
+
+        <!-- Services Section -->
+        <section class="services-section">
+            <!-- Residential Service -->
+            <div class="service-card">
+                <h3>Residential</h3>
+                <p>Expert carpentry services for your home. </p>
+                <button onclick="openChat()">Chat with a Carpenter</button>
+            </div>
+
+            <!-- Commercial Service -->
+            <div class="service-card">
+                <h3>Commercial</h3>
+                <p>Expert carpentry services for your business.</p>
+                <button onclick="openChat()">Chat with a Carpenter</button>
+            </div>
+        </section>
+
+        <!-- Chat Button -->
+        <div class="chat-container" onclick="openChat()">
+            💬
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <a href="https://www.trimcarpentry.com/policy/refund_policy.html">Refund Policy</a> |
+            <a href="https://www.trimcarpentry.com/policy/privacy_policy.html">Privacy Policy</a> |
+            <a href="https://www.trimcarpentry.com/policy/shipping_policy.html">Shipping Policy</a> |
+            <a href="https://www.trimcarpentry.com/policy/terms_of_service.html">Terms of Service</a>
+        </nav>
+        <div>
+            2025 Action Trim Carpentry llc - All Rights Reserved
+        </div>
+    </footer>
+
+    <script>
+        function openChat() {
+            alert("You're now connected with a carpenter! Please share your details, and we'll get back to you ASAP.");
+        }
+    </script>
+
+    <!-- Scripts for icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

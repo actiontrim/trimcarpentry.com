@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "T-Shirt",
+        "price": 29.99,
+        "image": "images/tshirt3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Hoodie",
+        "price": 59.99,
+        "image": "images/hoodie1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "High Vis Long Sleeve",
+        "price": 34.99,
+        "image": "images/safetyshirt.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Barn Door Hardware",
+        "price": 89.99,
+        "image": "images/barndoorhardware.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Pocket Door Hardware",
+        "price": 37.99,
+        "image": "images/pocketdoorhardware.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Keyless Entryset",
+        "price": 124.99,
+        "image": "images/keylessentry.jpg"
+    }
+]
